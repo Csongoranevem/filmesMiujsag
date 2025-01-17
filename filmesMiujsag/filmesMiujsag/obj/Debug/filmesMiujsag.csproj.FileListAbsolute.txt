@@ -1,0 +1,84 @@
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.csproj.AssemblyReference.cache
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.csproj.SuggestedBindingRedirects.cache
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.exe.config
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.csproj.CoreCompileInputs.cache
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\filmesMiujsag.exe.config
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\filmesMiujsag.exe
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\filmesMiujsag.pdb
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\BouncyCastle.Cryptography.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\Google.Protobuf.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.Streams.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Hash.xxHash.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\MySql.Data.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Buffers.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Configuration.ConfigurationManager.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.IO.Pipelines.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Memory.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Numerics.Vectors.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Threading.Tasks.Extensions.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\ZstdSharp.dll
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\BouncyCastle.Cryptography.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\Google.Protobuf.pdb
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\Google.Protobuf.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.Streams.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Hash.xxHash.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\MySql.Data.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Buffers.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Configuration.ConfigurationManager.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.IO.Pipelines.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Memory.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Numerics.Vectors.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\bin\Debug\System.Threading.Tasks.Extensions.xml
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMi.5C3476BE.Up2Date
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.exe
+H:\C# 2024\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.pdb
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\filmesMiujsag.exe.config
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\filmesMiujsag.exe
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\filmesMiujsag.pdb
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\Google.Protobuf.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\MySql.Data.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Buffers.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.IO.Pipelines.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Memory.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\ZstdSharp.dll
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\Google.Protobuf.pdb
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\Google.Protobuf.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\MySql.Data.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Buffers.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.IO.Pipelines.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Memory.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.csproj.AssemblyReference.cache
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.csproj.SuggestedBindingRedirects.cache
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.exe.config
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.csproj.CoreCompileInputs.cache
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMi.5C3476BE.Up2Date
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.exe
+C:\Users\dolgozat\Source\Repos\Csongoranevem\filmesMiujsag\filmesMiujsag\filmesMiujsag\obj\Debug\filmesMiujsag.pdb
