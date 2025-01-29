@@ -27,8 +27,11 @@ namespace filmesMiujsag
             KapcsolodasAdatbazishoz();
             KeremAzAdatokat("movies");
             FileBeolvas();
-            Console.WriteLine(filmekList[30]);
+            Console.WriteLine(filmekList[0]);
 
+            
+            UjFilm();
+            FilmTorles();
             Console.ReadKey();
 
 
@@ -47,6 +50,61 @@ namespace filmesMiujsag
                 }
             }
 
+
+        }
+
+        private static void UjFilm()
+        {
+            Console.WriteLine("Add meg az új film idit: ");
+            int ujId = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Add meg az új film címét: ");
+            string ujCim = Console.ReadLine();
+            Console.WriteLine("Add meg az új film kiadási évét: ");
+            string ujDate = Console.ReadLine();
+            Console.WriteLine("Add meg az új film hosszát: ");
+            string ujFilmHossz = Console.ReadLine();
+            Console.WriteLine("Add meg az új film direktorát: ");
+            string ujFilmDir = Console.ReadLine();
+            Console.WriteLine("Add meg az új film főszereplőjét: ");
+            string ujFilmFoszerep = Console.ReadLine();
+            Console.WriteLine("Add meg az új film értékelését: ");
+            string ujFilmErtek = Console.ReadLine();
+            Console.WriteLine("Add meg az új film mufaját: ");
+            string ujFilmMufaj = Console.ReadLine();
+
+            try
+            {
+                using (MySqlCommand commandInsert = new MySqlCommand($"insert into movies (id,name,release_date,length,director,main_character,imdb_rating,genre) values ( @id,@name,@release_date,@length,@director,@main_character,@imdb_rating,@genre)", connection))
+                {
+                    //Paraméterként adjuk meg az utasítás értékeit.
+                    commandInsert.Parameters.AddWithValue("@id",ujId);
+                    commandInsert.Parameters.AddWithValue("@name",ujCim);
+                    commandInsert.Parameters.AddWithValue("@release_date",ujDate);
+                    commandInsert.Parameters.AddWithValue("@length",ujFilmHossz);
+                    commandInsert.Parameters.AddWithValue("@director",ujFilmDir);
+                    commandInsert.Parameters.AddWithValue("@main_character",ujFilmFoszerep);
+                    commandInsert.Parameters.AddWithValue("@imdb_rating",ujFilmErtek);
+                    commandInsert.Parameters.AddWithValue("@genre",ujFilmMufaj);
+                    //parancs végrehajtása:
+                    commandInsert.ExecuteNonQuery();
+
+                    Console.WriteLine("Sikeres INSERT!");
+
+                    //Lista újratöltés...
+                    KeremAzAdatokat("movies");
+                    
+                }
+            }
+            catch (MySqlException mySqlError)
+            {
+                Console.WriteLine("Sikertelen INSERT");
+                Console.WriteLine(mySqlError);
+            }
+            catch (Exception error)
+            {
+                Console.WriteLine("Sikertelen INSERT");
+                Console.WriteLine(error);
+            }
 
         }
 
