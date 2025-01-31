@@ -54,6 +54,28 @@ namespace filmesMiujsag
 
 
         }
+        private static void FilmTorles()
+        {
+            Console.WriteLine("Add meg a törölni kívánt film nevét: ");
+            string torlesFilm = Console.ReadLine();
+
+            foreach (var film in filmekList)
+            {
+                if (torlesFilm == film.name)
+                {
+                    using (MySqlCommand deleteCommand =
+                        new MySqlCommand("delete from movies where name=@name", connection))
+                    {
+                        deleteCommand.Parameters.AddWithValue("@name", torlesFilm);
+                        deleteCommand.ExecuteNonQuery();
+                        Console.WriteLine("Sikeres törlés!");
+                        KeremAzAdatokat("movies");
+                    }
+                    break;
+                }
+
+            }
+        }
 
         private static void Lekerdezes(ref string table)
         {
