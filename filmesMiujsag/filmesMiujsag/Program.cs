@@ -30,8 +30,9 @@ namespace filmesMiujsag
             KeremAzAdatokat("movies");
             FileBeolvas();
             string tableName = "movies";
+            AdatokSzama();
+            DramaFilmek();
 
-            
             //UjFilm();
             //FilmTorles();
             //Lekerdezes(ref tableName);
@@ -54,6 +55,25 @@ namespace filmesMiujsag
                 }
             }
 
+
+        }
+
+        private static void DramaFilmek()
+        {
+            for (int i = 0; i < filmekList.Count; i++)
+            {
+
+                if (filmekList[i].genre == "Drama")
+
+                {
+                    Console.WriteLine(filmekList[i]);
+                }
+            }
+        }
+
+        private static void AdatokSzama()
+        {
+            Console.WriteLine($"Összes adatok száma: {filmekList.Count}");
 
         }
 
