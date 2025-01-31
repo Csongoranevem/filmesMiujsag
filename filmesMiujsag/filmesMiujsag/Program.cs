@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.IO;
+using MySqlX.XDevAPI.Relational;
 
 namespace filmesMiujsag
 {
@@ -27,11 +28,12 @@ namespace filmesMiujsag
             KapcsolodasAdatbazishoz();
             KeremAzAdatokat("movies");
             FileBeolvas();
-            Console.WriteLine(filmekList[0]);
+            string tableName = "movies";
 
             
-            UjFilm();
-            FilmTorles();
+            //UjFilm();
+            //FilmTorles();
+            Lekerdezes(ref tableName);
             Console.ReadKey();
 
 
@@ -48,6 +50,32 @@ namespace filmesMiujsag
                 {
                     Console.WriteLine("Hiba a kapcsolat megnyitásakor: " + ex.Message);
                 }
+            }
+
+
+        }
+
+        private static void Lekerdezes(ref string table)
+        {
+
+            try
+            {
+                Console.WriteLine("\n2006-ban vgy utána kiadott filmek:");
+                using (MySqlCommand commandSelect = new MySqlCommand($"SELECT * FROM {table} WHERE YEAR(release_date)>=2006", connection))
+                using (MySqlDataReader reader = commandSelect.ExecuteReader())
+                    while (reader.Read())
+                    {
+                        Console.WriteLine("- "+ reader["name"]);
+                    }
+
+
+                    Console.WriteLine("Sikeres SELECT!");
+
+                }
+                catch (MySqlException)
+            {
+
+                Console.WriteLine("Sikertelen SELECT!");   
             }
 
 
@@ -122,7 +150,6 @@ namespace filmesMiujsag
                 Mozik mozi = new Mozik(nev, cim, varos, feroHely, nyitvaTart);
                 moziLista.Add(mozi);
             }
-            Console.WriteLine(moziLista[0]);
             Console.ReadLine();
         }
 
