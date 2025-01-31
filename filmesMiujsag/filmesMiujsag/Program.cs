@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.IO;
 using MySqlX.XDevAPI.Relational;
+using Mysqlx.Crud;
 
 namespace filmesMiujsag
 {
@@ -33,7 +34,8 @@ namespace filmesMiujsag
             
             //UjFilm();
             //FilmTorles();
-            Lekerdezes(ref tableName);
+            //Lekerdezes(ref tableName);
+            Mozi_Feltoltes();
             Console.ReadKey();
 
 
@@ -54,6 +56,46 @@ namespace filmesMiujsag
 
 
         }
+
+        private static void Mozi_Feltoltes()
+        {
+            using (MySqlCommand commandInsertMozik = new MySqlCommand($"insert into mozik (nev, cim, varos, feroHely, nyitvaTart) values ( @nev,@cim,@varos,@feroHely,@nyitvaTart)", connection))
+            {
+                try
+                {
+                    foreach (var i in moziLista)
+                    {
+                        string nev = i.Nev;
+                        string cim = i.Cim;
+                        string varos = i.Varos;
+                        int feroHley = i.Ferohely;
+                        string nyitva = i.Nyitvatart;
+
+                        commandInsertMozik.Parameters.AddWithValue("@nev", nev);
+                        commandInsertMozik.Parameters.AddWithValue("@cim", cim);
+                        commandInsertMozik.Parameters.AddWithValue("@varos", varos);
+                        commandInsertMozik.Parameters.AddWithValue("@feroHely", feroHley);
+                        commandInsertMozik.Parameters.AddWithValue("@nyitvaTart", nyitva);
+                        //parancs végrehajtása:
+                        commandInsertMozik.ExecuteNonQuery();
+
+                    }
+
+                    Console.WriteLine("Sikeres INSERT!");
+
+                }
+                catch (MySqlException)
+                {
+
+                    Console.WriteLine("Sikertelen INSERT!");
+                }
+
+
+
+            }
+
+        }
+
         private static void FilmTorles()
         {
             Console.WriteLine("Add meg a törölni kívánt film nevét: ");
